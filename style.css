@@ -1,0 +1,42 @@
+const content = {
+  en: {
+    title: "Art of Living Meditation Center, Indapur",
+    subtitle: "A Space for Inner Peace, Wisdom & Transformation",
+    aboutTitle: "About the Center",
+    aboutText: "Art of Living Meditation Center, Indapur is a serene and vibrant space dedicated to inner growth, meditation, breathing techniques, and holistic well-being.",
+    ambienceTitle: "Center Ambience",
+    ambienceText: "The center offers a calm, clean, and spiritually charged ambience that supports deep meditation and self-reflection.",
+    programsTitle: "Regular Programs",
+    locationTitle: "Location",
+    connectTitle: "Connect With Us",
+    contactTitle: "Contact Us",
+    contactText: "📍 Indapur, Maharashtra\n📞 Phone: +91 9921867247\n📧 Email: artoflivingindapur@gmail.com"
+  },
+  mr: {
+    title: "आर्ट ऑफ लिव्हिंग ध्यान केंद्र, इंदापूर",
+    subtitle: "आंतरिक शांती, ज्ञान आणि परिवर्तनाचे केंद्र",
+    aboutTitle: "केंद्राविषयी माहिती",
+    aboutText: "आर्ट ऑफ लिव्हिंग ध्यान केंद्र, इंदापूर हे ध्यान, श्वसन तंत्रे आणि सर्वांगीण विकासासाठी समर्पित शांत व सकारात्मक ऊर्जा असलेले केंद्र आहे.",
+    ambienceTitle: "केंद्राचे वातावरण",
+    ambienceText: "हे केंद्र शांत, स्वच्छ आणि ध्यानासाठी अनुकूल असे आध्यात्मिक वातावरण प्रदान करते.",
+    programsTitle: "नियमित कार्यक्रम",
+    locationTitle: "ठिकाण",
+    connectTitle: "आमच्याशी संपर्क साधा",
+    contactTitle: "संपर्क",
+    contactText: "📍 इंदापूर, महाराष्ट्र\n📞 फोन: +91 9921867247\n📧 ईमेल: artoflivingindapur@gmail.com"
+  }
+};
+
+function setLang(lang) {
+  document.getElementById("title").innerText = content[lang].title;
+  document.getElementById("subtitle").innerText = content[lang].subtitle;
+  document.getElementById("aboutTitle").innerText = content[lang].aboutTitle;
+  document.getElementById("aboutText").innerText = content[lang].aboutText;
+  document.getElementById("ambienceTitle").innerText = content[lang].ambienceTitle;
+  document.getElementById("ambienceText").innerText = content[lang].ambienceText;
+  document.getElementById("programsTitle").innerText = content[lang].programsTitle;
+  document.getElementById("locationTitle").innerText = content[lang].locationTitle;
+  document.getElementById("connectTitle").innerText = content[lang].connectTitle;
+  document.getElementById("contactTitle").innerText = content[lang].contactTitle;
+  document.getElementById("contactText").innerText = content[lang].contactText;
+}
