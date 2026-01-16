@@ -1,77 +1,45 @@
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f5f7f6;
-  color: #333;
-}
+const data = {
+  en: {
+    title: "Art of Living Meditation Center, Indapur",
+    subtitle: "A Space for Inner Peace, Happiness & Transformation",
+    aboutTitle: "About the Center",
+    aboutText: "The Art of Living Meditation Center, Indapur is a peaceful and positive space dedicated to meditation, yoga, breathing techniques, and holistic personality development.",
+    ambienceTitle: "Center Ambience",
+    ambienceText: "The center offers a clean, calm, and spiritually uplifting ambience.",
+    programsTitle: "Regular Programs",
+    galleryTitle: "Gallery",
+    locationTitle: "Location",
+    connectTitle: "Connect With Us",
+    contactTitle: "Contact Us",
+    contactText: "📍 Indapur, Maharashtra\n📞 Phone: +91 99218 67247\n📧 Email: artoflivingindapur@gmail.com"
+  },
+  mr: {
+    title: "आर्ट ऑफ लिव्हिंग ध्यान केंद्र, इंदापूर",
+    subtitle: "आंतरिक शांती, आनंद आणि परिवर्तनाचे केंद्र",
+    aboutTitle: "केंद्राविषयी माहिती",
+    aboutText: "आर्ट ऑफ लिव्हिंग ध्यान केंद्र, इंदापूर हे ध्यान, योग, श्वसन तंत्र आणि व्यक्तिमत्त्व विकासासाठी समर्पित शांत व सकारात्मक ऊर्जा असलेले केंद्र आहे.",
+    ambienceTitle: "केंद्राचे वातावरण",
+    ambienceText: "हे केंद्र शांत, स्वच्छ आणि ध्यानासाठी अनुकूल असे आध्यात्मिक वातावरण देते.",
+    programsTitle: "नियमित कार्यक्रम",
+    galleryTitle: "छायाचित्रे",
+    locationTitle: "ठिकाण",
+    connectTitle: "आमच्याशी संपर्क साधा",
+    contactTitle: "संपर्क",
+    contactText: "📍 इंदापूर, महाराष्ट्र\n📞 फोन: +91 99218 67247\n📧 ईमेल: artoflivingindapur@gmail.com"
+  }
+};
 
-header {
-  background: #0c7b93;
-  color: white;
-  padding: 30px 20px;
-  text-align: center;
-}
-
-.lang-switch button {
-  margin: 10px;
-  padding: 6px 14px;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
-}
-
-section {
-  padding: 30px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-h2 {
-  color: #0c7b93;
-}
-
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-  gap: 15px;
-  margin-top: 15px;
-}
-
-.img-box {
-  height: 150px;
-  background: #ddd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #555;
-  border-radius: 8px;
-}
-
-.map-box {
-  height: 300px;
-  background: #ddd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-}
-
-.social-links a {
-  display: inline-block;
-  margin: 8px 10px;
-  text-decoration: none;
-  color: #0c7b93;
-  font-weight: bold;
-}
-
-.contact {
-  background: #e8f4f7;
-  border-radius: 8px;
-}
-
-footer {
-  background: #0c7b93;
-  color: white;
-  text-align: center;
-  padding: 15px;
+function changeLang(lang) {
+  document.getElementById("title").innerText = data[lang].title;
+  document.getElementById("subtitle").innerText = data[lang].subtitle;
+  document.getElementById("aboutTitle").innerText = data[lang].aboutTitle;
+  document.getElementById("aboutText").innerText = data[lang].aboutText;
+  document.getElementById("ambienceTitle").innerText = data[lang].ambienceTitle;
+  document.getElementById("ambienceText").innerText = data[lang].ambienceText;
+  document.getElementById("programsTitle").innerText = data[lang].programsTitle;
+  document.getElementById("galleryTitle").innerText = data[lang].galleryTitle;
+  document.getElementById("locationTitle").innerText = data[lang].locationTitle;
+  document.getElementById("connectTitle").innerText = data[lang].connectTitle;
+  document.getElementById("contactTitle").innerText = data[lang].contactTitle;
+  document.getElementById("contactText").innerText = data[lang].contactText;
 }
