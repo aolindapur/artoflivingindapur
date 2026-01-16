@@ -1,167 +1,137 @@
-<!DOCTYPE html>
-
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Art of Living Indapur Meditation Center</title>
-  <meta name="description" content="Official Art of Living Indapur Meditation Center – Sudarshan Kriya, Meditation, Happiness Program, Intuition Process." />
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      background: #f9faf7;
-    }
-    header {
-      background: linear-gradient(90deg, #f57c00, #ff9800);
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header h1 { margin: 0; font-size: 2.2rem; }
-    header p { font-size: 1.1rem; }
-
-```
-nav {
-  background: #2e7d32;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-nav a {
-  color: white;
-  padding: 14px 18px;
-  text-decoration: none;
-  font-weight: bold;
-}
-nav a:hover { background: #1b5e20; }
-
-section {
-  padding: 50px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-section h2 {
-  color: #2e7d32;
-  margin-bottom: 15px;
-}
-
-.programs {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.cta {
-  background: #ffecb3;
-  text-align: center;
-  padding: 40px 20px;
-  border-radius: 8px;
-}
-
-footer {
-  background: #2e7d32;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
-}
-
-.contact-box {
-  background: white;
-  padding: 25px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-@media (max-width: 600px) {
-  header h1 { font-size: 1.7rem; }
-}
-```
-
-  </style>
-</head>
 <body>
 
 <header>
-  <h1>Art of Living Indapur</h1>
-  <p>Meditation Center | Stress-Free & Happy Living</p>
+  <h1 class="lang-en">Art of Living Indapur</h1>
+  <h1 class="lang-mr">आर्ट ऑफ लिव्हिंग इंदापूर</h1>
+
+  <p class="lang-en">Meditation Center | Stress-Free & Happy Living</p>
+  <p class="lang-mr">ध्यान केंद्र | तणावमुक्त व आनंदी जीवन</p>
+
+  <!-- Language Switch -->
+  <div style="margin-top:15px;">
+    <button onclick="setLanguage('en')">English</button>
+    <button onclick="setLanguage('mr')">मराठी</button>
+  </div>
 </header>
 
 <nav>
-  <a href="#about">About</a>
-  <a href="#programs">Programs</a>
-  <a href="#events">Events</a>
-  <a href="#contact">Contact</a>
+  <a href="#about" class="lang-en">About</a>
+  <a href="#about" class="lang-mr">आमच्याबद्दल</a>
+
+  <a href="#programs" class="lang-en">Programs</a>
+  <a href="#programs" class="lang-mr">कार्यक्रम</a>
+
+  <a href="#events" class="lang-en">Events</a>
+  <a href="#events" class="lang-mr">उपक्रम</a>
+
+  <a href="#contact" class="lang-en">Contact</a>
+  <a href="#contact" class="lang-mr">संपर्क</a>
 </nav>
 
 <section id="about">
-  <h2>About Us</h2>
-  <p>
+  <h2 class="lang-en">About Us</h2>
+  <h2 class="lang-mr">आमच्याबद्दल</h2>
+
+  <p class="lang-en">
     The <strong>Art of Living Indapur Meditation Center</strong> is dedicated to creating a stress-free, healthy, and joyful society through authentic Art of Living techniques.
   </p>
-  <p>
-    Founded by <strong>Gurudev Sri Sri Ravi Shankar</strong>, the Art of Living organization operates in over 180 countries, touching millions of lives through meditation, breathwork, and service.
+
+  <p class="lang-mr">
+    <strong>आर्ट ऑफ लिव्हिंग इंदापूर ध्यान केंद्र</strong> हे तणावमुक्त, निरोगी आणि आनंदी समाज निर्माण करण्यासाठी समर्पित आहे.
+  </p>
+
+  <p class="lang-en">
+    Founded by <strong>Gurudev Sri Sri Ravi Shankar</strong>, the Art of Living operates in over 180 countries.
+  </p>
+
+  <p class="lang-mr">
+    <strong>गुरुदेव श्री श्री रविशंकर</strong> यांनी स्थापन केलेली आर्ट ऑफ लिव्हिंग संस्था १८० हून अधिक देशांमध्ये कार्यरत आहे.
   </p>
 </section>
 
 <section id="programs">
-  <h2>Our Programs</h2>
+  <h2 class="lang-en">Our Programs</h2>
+  <h2 class="lang-mr">आमचे कार्यक्रम</h2>
+
   <div class="programs">
     <div class="card">
-      <h3>Happiness Program</h3>
-      <p>Sudarshan Kriya™ – a powerful breathing technique to reduce stress, anxiety, and improve overall well-being.</p>
+      <h3 class="lang-en">Happiness Program</h3>
+      <h3 class="lang-mr">हॅपिनेस प्रोग्राम</h3>
+      <p class="lang-en">Sudarshan Kriya™ for stress relief and well-being.</p>
+      <p class="lang-mr">सुदर्शन क्रिया™ – तणाव कमी करण्यासाठी प्रभावी श्वसन तंत्र.</p>
     </div>
+
     <div class="card">
-      <h3>YES!+ Program</h3>
-      <p>Youth empowerment program focusing on confidence, leadership, and emotional intelligence.</p>
+      <h3 class="lang-en">YES!+ Program</h3>
+      <h3 class="lang-mr">YES!+ युवा कार्यक्रम</h3>
+      <p class="lang-en">Youth empowerment and leadership skills.</p>
+      <p class="lang-mr">युवकांसाठी आत्मविश्वास आणि नेतृत्व विकास.</p>
     </div>
+
     <div class="card">
-      <h3>Intuition Process</h3>
-      <p>Special program for kids and teens to enhance intuition, memory, and emotional balance.</p>
+      <h3 class="lang-en">Intuition Process</h3>
+      <h3 class="lang-mr">इंट्यूशन प्रोसेस</h3>
+      <p class="lang-en">Enhances intuition and memory for kids.</p>
+      <p class="lang-mr">मुलांसाठी स्मरणशक्ती व अंतर्ज्ञान विकास.</p>
     </div>
+
     <div class="card">
-      <h3>Sahaj Samadhi Meditation</h3>
-      <p>Effortless meditation to release deep stress and experience inner calm.</p>
+      <h3 class="lang-en">Sahaj Samadhi Meditation</h3>
+      <h3 class="lang-mr">सहज समाधी ध्यान</h3>
+      <p class="lang-en">Effortless deep meditation.</p>
+      <p class="lang-mr">सोपे व खोल ध्यान अनुभव.</p>
     </div>
   </div>
 </section>
 
 <section id="events">
-  <h2>Upcoming Events</h2>
-  <ul>
+  <h2 class="lang-en">Upcoming Events</h2>
+  <h2 class="lang-mr">आगामी उपक्रम</h2>
+
+  <ul class="lang-en">
     <li>Monthly Sudarshan Kriya Programs</li>
-    <li>Weekly Guided Meditation Sessions</li>
-    <li>Special Satsangs & Festival Celebrations</li>
+    <li>Weekly Meditation Sessions</li>
+    <li>Special Satsangs</li>
+  </ul>
+
+  <ul class="lang-mr">
+    <li>मासिक सुदर्शन क्रिया कार्यक्रम</li>
+    <li>साप्ताहिक ध्यान सत्र</li>
+    <li>विशेष सत्संग</li>
   </ul>
 </section>
 
 <section id="contact">
-  <h2>Contact Us</h2>
+  <h2 class="lang-en">Contact Us</h2>
+  <h2 class="lang-mr">संपर्क साधा</h2>
+
   <div class="contact-box">
-    <p><strong>📍 Address:</strong> Art of Living Indapur Meditation Center, Indapur, Maharashtra</p>
-    <p><strong>📞 Phone / WhatsApp:</strong> +91-99218 767247</p>
-    <p><strong>📧 Email:</strong> artoflivingindapur@gmail.com</p>
-    <p><strong>🕰️ Timings:</strong> 6:00 AM – 9:00 PM</p>
+    <p>📍 इंदापूर, महाराष्ट्र</p>
+    <p>📞 +91-99218 767247</p>
+    <p>📧 artoflivingindapur@gmail.com</p>
+    <p>🕰️ 6:00 AM – 9:00 PM</p>
   </div>
 </section>
 
 <section class="cta">
-  <h2>Join Us</h2>
-  <p>Experience peace, clarity, and happiness. Visit our center or register for upcoming programs.</p>
+  <h2 class="lang-en">Join Us</h2>
+  <h2 class="lang-mr">आमच्यात सहभागी व्हा</h2>
+
+  <p class="lang-en">Experience peace, clarity, and happiness.</p>
+  <p class="lang-mr">शांती, स्पष्टता आणि आनंदाचा अनुभव घ्या.</p>
 </section>
 
 <footer>
   <p>© 2026 Art of Living Indapur Meditation Center</p>
 </footer>
 
+<!-- Language Script -->
+<script>
+function setLanguage(lang) {
+  document.querySelectorAll('.lang-en').forEach(el => el.style.display = (lang === 'en') ? 'block' : 'none');
+  document.querySelectorAll('.lang-mr').forEach(el => el.style.display = (lang === 'mr') ? 'block' : 'none');
+}
+setLanguage('en'); // default
+</script>
+
 </body>
-</html>
