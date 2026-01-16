@@ -1,42 +1,80 @@
-const content = {
-  en: {
-    title: "Art of Living Meditation Center, Indapur",
-    subtitle: "A Space for Inner Peace, Wisdom & Transformation",
-    aboutTitle: "About the Center",
-    aboutText: "Art of Living Meditation Center, Indapur is a serene and vibrant space dedicated to inner growth, meditation, breathing techniques, and holistic well-being.",
-    ambienceTitle: "Center Ambience",
-    ambienceText: "The center offers a calm, clean, and spiritually charged ambience that supports deep meditation and self-reflection.",
-    programsTitle: "Regular Programs",
-    locationTitle: "Location",
-    connectTitle: "Connect With Us",
-    contactTitle: "Contact Us",
-    contactText: "📍 Indapur, Maharashtra\n📞 Phone: +91 9921867247\n📧 Email: artoflivingindapur@gmail.com"
-  },
-  mr: {
-    title: "आर्ट ऑफ लिव्हिंग ध्यान केंद्र, इंदापूर",
-    subtitle: "आंतरिक शांती, ज्ञान आणि परिवर्तनाचे केंद्र",
-    aboutTitle: "केंद्राविषयी माहिती",
-    aboutText: "आर्ट ऑफ लिव्हिंग ध्यान केंद्र, इंदापूर हे ध्यान, श्वसन तंत्रे आणि सर्वांगीण विकासासाठी समर्पित शांत व सकारात्मक ऊर्जा असलेले केंद्र आहे.",
-    ambienceTitle: "केंद्राचे वातावरण",
-    ambienceText: "हे केंद्र शांत, स्वच्छ आणि ध्यानासाठी अनुकूल असे आध्यात्मिक वातावरण प्रदान करते.",
-    programsTitle: "नियमित कार्यक्रम",
-    locationTitle: "ठिकाण",
-    connectTitle: "आमच्याशी संपर्क साधा",
-    contactTitle: "संपर्क",
-    contactText: "📍 इंदापूर, महाराष्ट्र\n📞 फोन: +91 9921867247\n📧 ईमेल: artoflivingindapur@gmail.com"
-  }
-};
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7f6;
+  color: #333;
+}
 
-function setLang(lang) {
-  document.getElementById("title").innerText = content[lang].title;
-  document.getElementById("subtitle").innerText = content[lang].subtitle;
-  document.getElementById("aboutTitle").innerText = content[lang].aboutTitle;
-  document.getElementById("aboutText").innerText = content[lang].aboutText;
-  document.getElementById("ambienceTitle").innerText = content[lang].ambienceTitle;
-  document.getElementById("ambienceText").innerText = content[lang].ambienceText;
-  document.getElementById("programsTitle").innerText = content[lang].programsTitle;
-  document.getElementById("locationTitle").innerText = content[lang].locationTitle;
-  document.getElementById("connectTitle").innerText = content[lang].connectTitle;
-  document.getElementById("contactTitle").innerText = content[lang].contactTitle;
-  document.getElementById("contactText").innerText = content[lang].contactText;
+header {
+  background: #0c7b93;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.lang-toggle button {
+  margin: 8px;
+  padding: 6px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+h2 {
+  color: #0c7b93;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 8px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0c7b93;
+}
+
+.contact {
+  background: #e7f3f6;
+  border-radius: 8px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 26px;
+  padding: 14px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+footer {
+  background: #0c7b93;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
