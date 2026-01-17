@@ -3,10 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>The Art of Living – Global</title>
-  <meta name="description"
-    content="Find solutions for a happy, stress-free life through meditation, yoga, breathwork and wisdom." />
+  <title data-lang="title">Art of Living</title>
 
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,95 +11,56 @@
 <body>
 
 <header class="site-header">
-  <div class="container">
-    <img src="images/logo.png" alt="Art of Living Logo" class="logo">
-    <nav class="main-nav">
-      <a href="#meditation">Meditation</a>
-      <a href="#yoga">Yoga</a>
-      <a href="#programs">Programs</a>
-      <a href="#wisdom">Wisdom</a>
-      <a href="#centers">Centers</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <div class="container header-flex">
+    <img src="images/logo.png" class="logo" alt="Logo">
+
+    <!-- Language Switch -->
+    <select id="languageSwitcher">
+      <option value="en">English</option>
+      <option value="mr">मराठी</option>
+    </select>
   </div>
+
+  <h1 data-lang="hero_title"></h1>
+  <p data-lang="hero_subtitle"></p>
 </header>
 
-<section class="hero">
-  <div class="overlay"></div>
-  <div class="hero-content container">
-    <h1>Welcome to The Art of Living</h1>
-    <p>Discover meditation, yoga, breathwork and wisdom for your well-being.</p>
-  </div>
-</section>
+<nav class="main-nav">
+  <a href="#about" data-lang="nav_about"></a>
+  <a href="#programs" data-lang="nav_programs"></a>
+  <a href="#events" data-lang="nav_events"></a>
+  <a href="#contact" data-lang="nav_contact"></a>
+</nav>
 
-<section id="meditation" class="section">
-  <div class="container">
-    <h2>Meditation & Breathwork</h2>
-    <p>Learn techniques like Sudarshan Kriya™ to reduce stress and enhance inner calm. :contentReference[oaicite:7]{index=7}</p>
-    <img src="images/meditation.jpg" alt="Meditation">
-  </div>
-</section>
-
-<section id="yoga" class="section">
-  <div class="container">
-    <h2>Yoga & Wellness</h2>
-    <p>Explore yoga practices tailored to balance your body and mind. :contentReference[oaicite:8]{index=8}</p>
-    <img src="images/yoga.jpg" alt="Yoga">
-  </div>
+<section id="about" class="section">
+  <h2 data-lang="about_title"></h2>
+  <p data-lang="about_text"></p>
 </section>
 
 <section id="programs" class="section">
-  <div class="container">
-    <h2>Our Programs</h2>
-    <div class="programs-grid">
-      <div class="card">
-        <h3>Happiness Program</h3>
-        <p>Stress-elimination breathing & meditation techniques. :contentReference[oaicite:9]{index=9}</p>
-      </div>
-      <div class="card">
-        <h3>Advanced Meditation</h3>
-        <p>Deep practices and spiritual silence retreats. :contentReference[oaicite:10]{index=10}</p>
-      </div>
-      <div class="card">
-        <h3>Online Meditation Workshop</h3>
-        <p>Guided breath & meditation session online. :contentReference[oaicite:11]{index=11}</p>
-      </div>
+  <h2 data-lang="programs_title"></h2>
+
+  <div class="programs-grid">
+    <div class="card">
+      <h3 data-lang="program1_title"></h3>
+      <p data-lang="program1_desc"></p>
+    </div>
+    <div class="card">
+      <h3 data-lang="program2_title"></h3>
+      <p data-lang="program2_desc"></p>
     </div>
   </div>
 </section>
 
-<section id="wisdom" class="section">
-  <div class="container">
-    <h2>Wisdom & Articles</h2>
-    <p>Explore articles, videos and tips to nurture a balanced, wise life. :contentReference[oaicite:12]{index=12}</p>
-    <!-- Placeholder list -->
-    <ul>
-      <li>Self-Care Guide</li>
-      <li>Meditation Benefits</li>
-      <li>Healthy Lifestyle Tips</li>
-    </ul>
-  </div>
+<section id="contact" class="section">
+  <h2 data-lang="contact_title"></h2>
+  <p data-lang="contact_text"></p>
 </section>
 
-<section id="centers" class="section">
-  <div class="container">
-    <h2>Art of Living Centers Worldwide</h2>
-    <p>Centers in over 180 countries supporting practice and community. :contentReference[oaicite:13]{index=13}</p>
-  </div>
-</section>
-
-<section id="contact" class="section contact-section">
-  <div class="container">
-    <h2>Contact Us</h2>
-    <p>Email: info@artofliving.org | Phone: +91-XXXXXXXXXX</p>
-  </div>
-</section>
-
-<footer class="footer container">
-  <p>© 2026 The Art of Living Foundation</p>
-  <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Use</a>
+<footer class="site-footer">
+  <p data-lang="footer_text"></p>
 </footer>
 
-<script src="js/main.js"></script>
+<script src="js/lang.js"></script>
 </body>
 </html>
