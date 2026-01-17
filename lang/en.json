@@ -1,6 +1,46 @@
 {
   "hero_title": "Art of Living Indapur",
   "hero_subtitle": "Meditation Center | Stress-Free & Happy Living",
+
   "nav_about": "About",
-  "gallery_title": "Gallery"
+  "nav_programs": "Programs",
+  "nav_events": "Events",
+  "nav_gallery": "Gallery",
+  "nav_contact": "Contact",
+
+  "about_title": "About Us",
+  "about_text_1": "The Art of Living Indapur Meditation Center is dedicated to creating a stress-free, healthy, and joyful society through authentic Art of Living techniques.",
+  "about_text_2": "Founded by Gurudev Sri Sri Ravi Shankar, the Art of Living organization operates in over 180 countries, touching millions of lives through meditation, breathwork, and service.",
+
+  "programs_title": "Our Programs",
+
+  "program1_title": "Happiness Program",
+  "program1_desc": "Sudarshan Kriya™ – a powerful breathing technique to reduce stress, anxiety, and improve overall well-being.",
+
+  "program2_title": "YES!+ Program",
+  "program2_desc": "Youth empowerment program focusing on confidence, leadership, and emotional intelligence.",
+
+  "program3_title": "Intuition Process",
+  "program3_desc": "Special program for kids and teens to enhance intuition, memory, and emotional balance.",
+
+  "program4_title": "Sahaj Samadhi Meditation",
+  "program4_desc": "Effortless meditation to release deep stress and experience inner calm.",
+
+  "events_title": "Upcoming Events",
+  "event1": "Monthly Sudarshan Kriya Programs",
+  "event2": "Weekly Guided Meditation Sessions",
+  "event3": "Special Satsangs & Festival Celebrations",
+
+  "gallery_title": "Gallery",
+
+  "contact_title": "Contact Us",
+  "contact_address": "📍 Address: Art of Living Indapur Meditation Center, Indapur, Maharashtra",
+  "contact_phone": "📞 Phone / WhatsApp: +91-9921867247",
+  "contact_email": "📧 Email: info@artoflivingindapur.org",
+  "contact_time": "🕰️ Timings: 6:00 AM – 9:00 PM",
+
+  "cta_title": "Join Us",
+  "cta_text": "Experience peace, clarity, and happiness. Visit our center or register for upcoming programs.",
+
+  "footer_text": "© 2026 Art of Living Indapur Meditation Center"
 }
